@@ -24,11 +24,11 @@ sketchybar --set island.resume_text drawing=on \
 if [[ $pauseStatus == "0" ]]; then
 	# paused
 	sketchybar --set island.resume_text label="Paused" \
-					 					label.padding_left=0
+					 					label.padding_left=10
 else
 	# resume
 	sketchybar --set island.resume_text label="Resumed" \
-					 					label.padding_left=258
+					 					label.padding_left=288
 fi
 
 # animate
